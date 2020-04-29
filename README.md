@@ -4,12 +4,14 @@ Coronavirus Prediction Project
 ## Data Set
 Source: https://github.com/CSSEGISandData/COVID-19
 
-Daily  Reports are pulled from the repository daily and added to the data forlder and will consoloidated into one csv wen the application is ran 
+Daily  Reports are pulled from the repository daily and store locally in the the data forlder 
+
+The reports are consolidated into one csv wen the application is ran 
 
 ## Pre-Processing the Data 
 Information from the local daily report csv is extracted and into a DataFrame. 
 
-The application looks through the data and fills in any missing information and addresses any inconsistsencies between the reports 
+The application reviews the data and fills in any missing information and addresses any inconsistsencies between the reports 
 
 The information is outputted into one local CSV
 
